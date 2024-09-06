@@ -19,7 +19,7 @@ const Footer = () => {
                         &nbsp;<BsGithub />
                     </span>
                 </a>
-                <a href="https://github.com/Erik-Varga/react-vite-infamous-music-app" target="_blank" rel="noreferrer" className='text-xs'>
+                <a href="https://github.com/Erik-Varga/react-infamous-music-app" target="_blank" rel="noreferrer" className='text-xs'>
                 Source Code |&nbsp;
                 </a>
             </span>
