@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    text-align: center;
+    padding: 5px;
+}
+
+.playing {
+    background-color: lightgrey;
+    color: black;
+}
+
+.list.show {
+    bottom: 0;
+}
+
+#waveform {
+    width: 100%;
+    max-width: 100%;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #1e293b;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    cursor: grab;
+}
+
+.controls button {
+    margin: 1px;
+    border: 1px solid #ccc !important;
+}
+
+.controls button:hover {
+    background-color: #ececec;
+}
